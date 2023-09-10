@@ -78,6 +78,8 @@
                                     <img src="{{asset('img/whatsapp-icon.png')}}" alt="" style="width: 20px; height: 20px;">
                                 </a>
                                 <a class="text-white mb-0" href="https://api.whatsapp.com/send?phone=923400860323">+92 340 0860323</a>
+                                <a class="text-white mb-0 ms-4" href="https://api.whatsapp.com/send?phone=92515146720 ">+92 51 5146720</a>
+
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>

@@ -106,7 +106,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="text-white mb-0">Happy Clients</h5>
-                        <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="text-white mb-0" data-toggle="counter-up">7619</h1>
                     </div>
                 </div>
             </div>
@@ -117,7 +117,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="text-primary mb-0">Projects Done</h5>
-                        <h1 class="mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="mb-0" data-toggle="counter-up">4321</h1>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                     </div>
                     <div class="ps-4">
                         <h5 class="text-white mb-0">Win Awards</h5>
-                        <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
+                        <h1 class="text-white mb-0" data-toggle="counter-up">6</h1>
                     </div>
                 </div>
             </div>
@@ -164,6 +164,7 @@
                     <div class="ps-4">
                         <h5 class="mb-2">Call to ask any question</h5>
                         <a class="text-primary mb-0" href="https://api.whatsapp.com/send?phone=923400860323">+92 340 0860323</a>
+                        <a class="text-primary mb-0 ms-4" href="https://api.whatsapp.com/send?phone=92515146720 ">+92 51 5146720</a>
                     </div>
                 </div>
             </div>
@@ -242,7 +243,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded d-flex flex-column">
                     <div class="text-center">
-                        <img class="" src="{{asset('img/secp-logo.png')}}" style="width: 150px; height:132px"></i>
+                        <img class="" src="{{asset('img/accrideted.png')}}" style="width: 150px; height:132px"></i>
                     </div>
                     <h4 class="mb-3">Accredited Registration and Certifications</h4>
                     <ul class="list-inline text-start">
@@ -308,7 +309,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                 <div class="service-item bg-light rounded d-flex flex-column">
                     <div class="text-center">
-                        <img class="" src="{{asset('img/fbr-logo.png')}}" style="width: 150px; height:132px"></i>
+                        <img class="" src="{{asset('img/audit.png')}}" style="width: 150px; height:132px"></i>
                     </div>
                     <h4 class="mb-3">Audit and Assurance Services</h4>
                     <ul class="list-inline text-start">
@@ -332,7 +333,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                 <div class="service-item bg-light rounded d-flex flex-column">
                     <div class="text-center">
-                        <img class="" src="{{asset('img/fbr-logo.png')}}" style="width: 150px; height:132px"></i>
+                        <img class="" src="{{asset('img/management.png')}}" style="width: 150px; height:132px"></i>
                     </div>
                     <h4 class="mb-3">Management Consulting</h4>
                     <ul class="list-inline text-start">
@@ -381,7 +382,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                 <div class="service-item bg-light rounded d-flex flex-column">
                     <div class="text-center">
-                        <img class="" src="{{asset('img/secp-logo.png')}}" style="width: 150px; height:132px"></i>
+                        <img class="" src="{{asset('img/accounting.png')}}" style="width: 150px; height:132px"></i>
                     </div>
                     <h4 class="mb-3">Accounting and Book Keeping Services</h4>
                     <ul class="list-inline text-start">
@@ -395,7 +396,7 @@
             <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                 <div class="service-item bg-light rounded d-flex flex-column">
                     <div class="text-center">
-                        <img class="" src="{{asset('img/secp-logo.png')}}" style="width: 150px; height:132px"></i>
+                        <img class="" src="{{asset('img/legel_services.png')}}" style="width: 150px; height:132px"></i>
                     </div>
                     <h4 class="mb-3">Legal Services</h4>
                     <ul class="list-inline text-start">
@@ -427,31 +428,31 @@
             <h1 class="mb-0">What Our Clients Say About Our Services</h1>
         </div>
         <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
-            <div class="testimonial-item bg-light my-4">
+            <div class="testimonial-item bg-light my-4" style="height: 400px">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;">
+                    <img class="img-fluid rounded" src="{{asset('img/clinet_1.jpg')}}" style="width: 60px; height: 60px;">
                     <div class="ps-4">
-                        <h4 class="text-primary mb-1">Client Name</h4>
-                        <small class="text-uppercase">Profession</small>
+                        <h4 class="text-primary mb-1">HAMZA KHALID</h4>
+                        <small class="text-uppercase">Tourism Company Owner</small>
                     </div>
                 </div>
                 <div class="pt-4 pb-5 px-5">
-                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    I’m Owner of Ramblers.Pk a leading Tourism Company and EFS has been fantastic for my business. Patient, knowledgeable, and always willing to take the time to respond to my questions and provide extra support. Thank you!
                 </div>
             </div>
-            <div class="testimonial-item bg-light my-4">
+            <div class="testimonial-item bg-light my-4" style="height: 400px;">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                    <img class="img-fluid rounded" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
+                    <img class="img-fluid rounded" src="{{asset('img/clinet_2.jpg')}}" style="width: 60px; height: 60px;">
                     <div class="ps-4">
-                        <h4 class="text-primary mb-1">Client Name</h4>
-                        <small class="text-uppercase">Profession</small>
+                        <h4 class="text-primary mb-1">Kashif Nazir</h4>
+                        <small class="text-uppercase">Owner of KN Laptops</small>
                     </div>
                 </div>
                 <div class="pt-4 pb-5 px-5">
-                    Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    I view Eastern Financial Solutions as so much more than expert tax accountants and consultants, I consider them partners in my evolution as a business owner. Knowing I have EFS in my corner allows me to focus on the things I do best, as it is clear that they excel in what they do best. Thanks for being a part of my journey!
                 </div>
             </div>
-            <div class="testimonial-item bg-light my-4">
+            <div class="testimonial-item bg-light my-4" style="height: 400px">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;">
                     <div class="ps-4">
@@ -463,7 +464,7 @@
                     Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
                 </div>
             </div>
-            <div class="testimonial-item bg-light my-4">
+            <div class="testimonial-item bg-light my-4" style="height: 400px">
                 <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;">
                     <div class="ps-4">
@@ -491,7 +492,7 @@
             <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
                 <div class="team-item bg-light rounded overflow-hidden">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/women_avatar.png" alt="">
                         <div class="team-social">
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -500,15 +501,33 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h4 class="text-primary">Full Name</h4>
-                        <p class="text-uppercase m-0">Designation</p>
+                        <h4 class="text-primary">Arooj Ahmed Mamoon</h4>
+                        <p class="text-uppercase m-0">Chairman East & East Inc. Group of Companies</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden">
+                        <img class="img-fluid w-100" src="img/farrukh_bhatti.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">Raja Farrakh Arif Bhatti</h4>
+                        <p class="text-uppercase m-0">Member Punjab Bar Counsel (ASC)</p>
+                        <p class="text-uppercase m-0">Managing Director Legal Affairs</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
                 <div class="team-item bg-light rounded overflow-hidden">
                     <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="">
+                        <img class="img-fluid w-100" src="img/women_avatar.png" alt="">
                         <div class="team-social">
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -517,15 +536,15 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h4 class="text-primary">Full Name</h4>
-                        <p class="text-uppercase m-0">Designation</p>
+                        <h4 class="text-primary">Zaiba Hameed (AHC) </h4>
+                        <p class="text-uppercase m-0">Deputy Director Legal Affairs</p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                <div class="team-item bg-light rounded overflow-hidden">
-                    <div class="team-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="">
+                <div class="team-item bg-light rounded overflow-hidden" style="height: 78%;">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/shahid_langrial.jpg" alt="">
                         <div class="team-social">
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
                             <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
@@ -534,8 +553,110 @@
                         </div>
                     </div>
                     <div class="text-center py-4">
-                        <h4 class="text-primary">Full Name</h4>
-                        <p class="text-uppercase m-0">Designation</p>
+                        <h4 class="text-primary">Shahid Mehmood Langrial (AHC)</h4>
+                        <p class="text-uppercase m-0">Chairman Legal Affairs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="">
+                <div class="team-item bg-light rounded overflow-hidden" style="height: 78%;">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">Dr. Fayyaz Saad (AHC) </h4>
+                        <p class="text-uppercase m-0">Chief Advisor to Corporate Sector for Tax Litigations</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="">
+                <div class="team-item bg-light rounded overflow-hidden" style="height: 78%;">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">Syed Ali Tayyab Kazmi (AHC)</h4>
+                        <p class="text-uppercase m-0">Associate Member</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="margin-top: -84px;">
+                <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">M. Ashar Khayam (ACMA)</h4>
+                        <p class="text-uppercase m-0">Chief Financial Officer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="margin-top: -84px;">
+                <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">Tayyab Shafique (CMA)</h4>
+                        <p class="text-uppercase m-0">Chief Co-ordinator</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="margin-top: -84px;">
+                <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">Ch Mansoor Akhtar</h4>
+                        <p class="text-uppercase m-0">ACMA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="margin-top: 42px;">
+                <div class="team-item bg-light rounded overflow-hidden">
+                    <div class="team-img position-relative overflow-hidden" style="height: 72%;">
+                        <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
+                        <div class="team-social">
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                            <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                        </div>
+                    </div>
+                    <div class="text-center py-4">
+                        <h4 class="text-primary">Naqeeb Sangalee</h4>
+                        <p class="text-uppercase m-0">ACMA</p>
                     </div>
                 </div>
             </div>
@@ -560,6 +681,7 @@
                     <div class="ps-4">
                         <h5 class="mb-2">Call to ask any question</h5>
                         <a class="text-primary mb-0" href="https://api.whatsapp.com/send?phone=923400860323">+92 340 0860323</a>
+                        <a class="text-primary mb-0 ms-4" href="https://api.whatsapp.com/send?phone=92515146720 ">+92 51 5146720</a>
                     </div>
                 </div>
             </div>
