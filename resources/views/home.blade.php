@@ -558,7 +558,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="">
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                 <div class="team-item bg-light rounded overflow-hidden" style="height: 78%;">
                     <div class="team-img position-relative overflow-hidden" style="height: 72%;">
                         <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
@@ -575,7 +575,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s" style="">
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
                 <div class="team-item bg-light rounded overflow-hidden" style="height: 78%;">
                     <div class="team-img position-relative overflow-hidden" style="height: 72%;">
                         <img class="img-fluid w-100" src="img/man_avatar.jpg" alt="">
@@ -664,6 +664,38 @@
     </div>
 </div>
 <!-- Team End -->
+
+<!-- Blog Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">Latest Blog</h5>
+            <h1 class="mb-0">Read The Latest Articles from Our Blog Post</h1>
+        </div>
+        <div class="row g-5" id="blog_post">
+            @foreach($latestPosts as $post)
+            <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+                <div class="blog-item bg-light rounded overflow-hidden">
+                    <div class="blog-img position-relative overflow-hidden">
+                        <img class="img-fluid" src="{{asset(getImageUrl($post->image))}}" alt="">
+                        <a class="position-absolute top-0 start-0 bg-primary text-white rounded-end mt-5 py-2 px-4 text-capitalize">{{$post->categories?->name}}</a>
+                    </div>
+                    <div class="p-4">
+                        <div class="d-flex mb-3">
+                            <small><i class="far fa-calendar-alt text-primary me-2"></i>{{ \Carbon\Carbon::parse($post->created_at)->format('F j, Y') }}
+                            </small>
+                        </div>
+                        <h4 class="mb-3 text-capitalize">{{$post->name}}</h4>
+                        <p>{{strlen(strip_tags($post->description)) > 100 ? substr(strip_tags($post->description), 0, 100) . '...' : strip_tags($post->description);}}</p>
+                        <a class="text-uppercase" href="">Read More <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            @endforeach
+        </div>
+    </div>
+</div>
+<!-- Blog Start -->
 
 <!-- Contact Start -->
 <div id="contact_us" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">

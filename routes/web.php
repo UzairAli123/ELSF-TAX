@@ -22,7 +22,9 @@ use Illuminate\Support\Facades\Route;
 
 // });
 
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('blogs', [HomeController::class, 'getBlogs'])->name('blogs');
+Route::get('blog-detail/{uuid}', [HomeController::class, 'getBlogDetail'])->name('blog-detail');
 
 Route::middleware([
     'auth:sanctum',

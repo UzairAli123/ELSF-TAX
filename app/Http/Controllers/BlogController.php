@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use Exception;
 use App\Models\Blog;
 use App\Models\Category;
-use Exception;
+use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use Yajra\DataTables\DataTables;
 use Illuminate\Http\JsonResponse;
@@ -46,6 +47,7 @@ class BlogController extends Controller
             $extension = $request->image->extension();
             $path = saveResizeImage($request->image, "images", 600, 500, $extension);
             Blog::create([
+                'uuid' => Str::uuid(),
                 'name' => $request->name,
                 'category_id' => $request->category_id,
                 'image' => $path,

@@ -28,6 +28,8 @@
 
     <!-- Template Stylesheet -->
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/custom.css')}}" rel="stylesheet">
+
 
     <title>@yield('title')</title>
 </head>
@@ -47,7 +49,7 @@
                     <a href="" data-scroll="about" class="nav-item nav-link">About</a>
                     <a href="" class="nav-item nav-link" data-scroll="services">Services</a>
                     <a href="" class="nav-item nav-link" data-scroll="core_team">Core Team</a>
-                    <a href="" class="nav-item nav-link">Blogs</a>
+                    <a href="{{route('blogs')}}" class="nav-item nav-link" data-scroll="blogs">Blogs</a>
                     <a href="" class="nav-item nav-link" data-scroll="contact_us">Contact</a>
                 </div>
             </div>
@@ -137,35 +139,90 @@
     <script src="{{asset('js/main.js')}}"></script>
     <script>
         $(document).ready(function() {
-            $('a[data-scroll]').on('click', function(e) {
-                e.preventDefault();
-                // Check if the data-scroll attribute is "logo"
-                if ($(this).attr('data-scroll') === 'logo' || $(this).attr('data-scroll') === 'top') {
-                    // Remove the "active" class from all links
-                    $('a[data-scroll]').removeClass('active');
-                    var aboutLink = $('a[data-scroll="home"]');
+            var currentRoute = window.location.pathname;
+            if (currentRoute === '/blogs' || currentRoute.startsWith('/blog-detail')) {
+                // Set the "Blogs" link as active
+                $('a[data-scroll]').removeClass('active');
+                $('a[data-scroll="blogs"]').addClass('active');
+                $('a[data-scroll]').on('click', function(e) {
+                    e.preventDefault();
+                    if ($(this).attr('data-scroll') != 'blogs') {
+                        $('a[data-scroll]').removeClass('active');
+                        window.location.href = "{{ route('home') }}";
+                        // Add the "active" class to the clicked link
+                        $(this).addClass('active');
 
-                    // Do something with the found element (e.g., add a class)
-                    aboutLink.addClass('active');
-                    var targetOffset = $('#home').offset().top;
+                        setTimeout(() => {
+                            var target = $(this).attr('data-scroll');
+                            var targetOffset = $('#' + target).offset().top;
 
-                    $('html, body').animate({
-                        scrollTop: targetOffset
-                    }); // Adjust the scroll duration as needed
-                } else {
-                    // Remove the "active" class from all links
-                    $('a[data-scroll]').removeClass('active');
+                            $('html, body').animate({
+                                scrollTop: targetOffset
+                            });
+                        }, 400);
 
-                    // Add the "active" class to the clicked link
-                    $(this).addClass('active');
+                    }
+                })
+            } else {
+                $('a[data-scroll]').on('click', function(e) {
+                    e.preventDefault();
+                    // Check if the data-scroll attribute is "logo"
+                    if ($(this).attr('data-scroll') === 'logo' || $(this).attr('data-scroll') === 'top') {
+                        // Remove the "active" class from all links
+                        $('a[data-scroll]').removeClass('active');
+                        var aboutLink = $('a[data-scroll="home"]');
 
-                    var target = $(this).attr('data-scroll');
-                    var targetOffset = $('#' + target).offset().top;
+                        // Do something with the found element (e.g., add a class)
+                        aboutLink.addClass('active');
+                        var targetOffset = $('#home').offset().top;
 
-                    $('html, body').animate({
-                        scrollTop: targetOffset
-                    }); // Adjust the scroll duration as needed
-                }
+                        $('html, body').animate({
+                            scrollTop: targetOffset
+                        }); // Adjust the scroll duration as needed
+                    } else if ($(this).attr('data-scroll') == 'blogs') {
+                        $('a[data-scroll]').removeClass('active');
+                        var aboutLink = $('a[data-scroll="blogs"]');
+
+                        // Do something with the found element (e.g., add a class)
+                        aboutLink.addClass('active');
+
+                        window.location.href = "{{ route('blogs') }}";
+                    } else {
+                        // Remove the "active" class from all links
+                        $('a[data-scroll]').removeClass('active');
+
+                        // Add the "active" class to the clicked link
+                        $(this).addClass('active');
+
+                        var target = $(this).attr('data-scroll');
+                        var targetOffset = $('#' + target).offset().top;
+
+                        $('html, body').animate({
+                            scrollTop: targetOffset
+                        }); // Adjust the scroll duration as needed
+                    }
+                });
+            }
+            // // equal height
+            const rows = document.querySelectorAll('#blog_post');
+            rows.forEach(row => {
+                // Get all cards in the current row
+                const cards = row.querySelectorAll('.blog-item');
+
+                // Find the maximum height among all cards in the row
+                let maxHeight = 0;
+
+                cards.forEach(card => {
+                    const cardHeight = card.offsetHeight;
+                    if (cardHeight > maxHeight) {
+                        maxHeight = cardHeight;
+                    }
+                });
+
+                // Set the maximum height for all cards in the row
+                cards.forEach(card => {
+                    card.style.height = `${maxHeight}px`;
+                });
             });
         });
     </script>
